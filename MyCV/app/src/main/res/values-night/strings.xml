@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">My Curriculum Vitae</string>
     <string name="hint_for_CV">do you want to see the CV?</string>
@@ -13,4 +14,5 @@ In convallis nulla a convallis sodales. Fusce eu convallis ligula, et fringilla 
 Vestibulum finibus pretium ante at feugiat. Aliquam volutpat diam nec nibh rhoncus, eu pulvinar dolor pellentesque. Morbi dapibus posuere pulvinar. Phasellus id interdum est. Proin dapibus risus et metus semper pulvinar. Donec mollis sodales lorem vel pharetra. Fusce vitae quam lacinia, convallis orci at, finibus orci. Nam convallis eget justo vel molestie. Proin id elit et turpis dignissim finibus eget sed urna. Cras ipsum libero, posuere in rutrum in, finibus nec nunc. Donec eu sapien lacus. Cras quis tempor est. Duis placerat accumsan porttitor. Ut efficitur sapien feugiat, gravida risus ut, fermentum odio. Etiam luctus pretium erat non pulvinar.
 \n\n
 Nam dapibus vestibulum erat, non pellentesque eros molestie nec. Aliquam at posuere risus, in egestas lorem. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed viverra risus ut urna malesuada lobortis. Aenean laoreet urna quis eros ultrices, eget posuere nisl semper. Praesent nisl dolor, ullamcorper eu metus vel, interdum sodales risus. Pellentesque nec leo libero. Sed pharetra vestibulum elit, id gravida nisi bibendum in. Curabitur et mollis dolor. Vestibulum faucibus felis nibh, a aliquam ante porta cursus. Fusce vehicula mattis nisi, vel semper elit mattis in. </string>
+
 </resources>
