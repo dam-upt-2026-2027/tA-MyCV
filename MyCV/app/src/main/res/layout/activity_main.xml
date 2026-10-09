@@ -44,7 +44,8 @@
         android:text="José"
         android:textColor="@color/black"
         android:textSize="30sp"
-        android:textStyle="italic" />
+        android:textStyle="italic"
+        android:visibility="gone"/>
 
     <!-- my CV -->
     <ScrollView
@@ -52,9 +53,12 @@
         android:layout_height="match_parent">
 
         <LinearLayout
+            android:id="@+id/show_cv"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical" >
+            android:orientation="vertical"
+            android:visibility="gone"
+            >
             <TextView
                 android:id="@+id/my_cv"
                 android:layout_width="wrap_content"
@@ -63,12 +67,10 @@
                 android:textSize="16sp"
                 android:textColor="@color/black"
                 android:padding="10dp"
+
                 />
         </LinearLayout>
     </ScrollView>
-
-
-
 
 
 
