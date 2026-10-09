@@ -5,6 +5,7 @@ import android.view.View
 import android.widget.Button
 import android.widget.EditText
 import android.widget.LinearLayout
+import android.widget.SeekBar
 import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -27,6 +28,29 @@ class MainActivity : AppCompatActivity() {
         findViewById<Button>(R.id.button).setOnClickListener {
             showCV(it)
         }
+
+        // add behavior of seekBar
+        var seekBar = findViewById<SeekBar>(R.id.seekBar)
+        var textMyCV = findViewById<TextView>(R.id.my_cv)
+
+        // Set the SeekBar change listener
+        seekBar.setOnSeekBarChangeListener(object : SeekBar.OnSeekBarChangeListener {
+            // When the progress value has changed
+            override fun onProgressChanged(seekBar: SeekBar?, progress: Int, fromUser: Boolean) {
+            // Increment 1 in progress and update the text size
+                textMyCV.textSize = (progress + 1).toFloat()
+            }
+
+            override fun onStartTrackingTouch(seekBar: SeekBar?) {
+            // This method will automatically be called when the user touches the SeekBar
+            }
+
+            override fun onStopTrackingTouch(seekBar: SeekBar?) {
+            // This method will automatically be called when the user stops touching the SeekBar
+            }
+        })
+
+
     }
 
     private fun showCV(view: View) {
